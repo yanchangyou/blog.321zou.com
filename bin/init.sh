@@ -16,20 +16,23 @@ npm install --save
 cd ..
 
 echo ===install jekyll-theme-cayman-blog=====
-cd blog.max.top-min.top
+cd jekyll.321zou.com
 gem install jekyll-theme-cayman-blog
 cd ..
 
-echo =============make sh=============
-chmod +x blog.max.top-min.top/run.sh
-chmod +x hexo.321zou.com/run.sh
+echo ========init docs _posts===========
+mkdir -p jekyll.321zou.com/_posts
+cp -r blog.321zou.com/docs/* jekyll.321zou.com/_posts
+
+mkdir -p hexo.321zou.com/source/_posts
+cp -r blog.321zou.com/docs/* hexo.321zou.com/source/_posts
 
 echo ============run jekyll============
-cd blog.max.top-min.top
-./run.sh
+cd jekyll.321zou.com
+bash run.sh
 cd ..
 
 echo =============run hexo=============
 cd hexo.321zou.com
-./run.sh
+bash run.sh
 cd ..
