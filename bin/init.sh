@@ -24,8 +24,12 @@ echo ========init docs _posts===========
 mkdir -p jekyll.321zou.com/_posts
 cp -r blog.321zou.com/docs/* jekyll.321zou.com/_posts
 
+mkdir -p jekyll.321zou.com/_site/images
+cp -r blog.321zou.com/images/ jekyll.321zou.com/_site/images/
+
 mkdir -p hexo.321zou.com/source/_posts
 cp -r blog.321zou.com/docs/* hexo.321zou.com/source/_posts
+cp -r blog.321zou.com/images/ hexo.321zou.com/public/images/
 
 echo ============run jekyll============
 cd jekyll.321zou.com
