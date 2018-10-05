@@ -2,8 +2,8 @@
 
 
 支持两种博客系统，默认是hexo
-http://jekyll.321zou.com
-http://hexo.321zou.com
+- jekyll ： http://jekyll.321zou.com
+- hexo ： http://hexo.321zou.com
 
 下面是按照IP随机选择
-http://random.321zou.com
+- http://random.321zou.com
