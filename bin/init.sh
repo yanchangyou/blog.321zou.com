@@ -40,9 +40,9 @@ cd ..
 sleep 10
 
 echo ========cp image to hexo========
-cp -r blog.321zou.com/images/ hexo.321zou.com/public/images/
+cp -r blog.321zou.com/images hexo.321zou.com/public/
 
 echo ========cp image to jekyll======
 mkdir -p jekyll.321zou.com/images
-cp -r blog.321zou.com/images/ jekyll.321zou.com/images/
+cp -r blog.321zou.com/images jekyll.321zou.com/
 
