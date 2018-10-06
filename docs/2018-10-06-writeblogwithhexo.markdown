@@ -59,8 +59,30 @@ hexo s --debug
 进入网站[iconfont](http://www.iconfont.cn?_blank)，定制好大小，然后下载，把图标放进去（之前说要转换，看不转换也行），刷新页面，图标已改变.
 
 ## 统计
+### 百度
 统计方面hexo做的比较好，已经集成了百度，直接配置属性就开启，打开主题hexo-theme-next配置文件：_config.yml（注意不是hexo的配置文件），搜索baidu_analytics，添加自己的uuid
 ```
 theme.baidu_analytic: uuid
 ```
 刷新页面，F12查看时已经有百度请求：https://hm.baidu.com/hm.gif?xxx，说明已经安装成功了
+
+### busuanzi
+相同的位置，开启busuanzi功能，搜索busuanzi，把enable的false改成true
+```
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  post_views: true
+  post_views_icon: eye
+```
+## 评论
+相同方法，搜索valine， 然后配置好appId和appKey，注意缩进
+```
+valine:
+  appId: gs4XxRz1HG66wfK2k5su02D5-gzGzoHsz
+  appKey: SfmoXDMrxNUPUHWIJIoHlsY8
+```
+从上面可以看出，hexo做了很多博客相关的集成，用起来很方便，点赞.
