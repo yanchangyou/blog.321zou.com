@@ -8,6 +8,11 @@ cd blog.321zou.com
 git pull
 cd ..
 
+echo ========update theme===========
+cd hexo-theme-next
+git pull
+cd ..
+
 echo ========init docs _posts===========
 cp -r blog.321zou.com/docs/* jekyll.321zou.com/_posts
 cp -r blog.321zou.com/docs/* hexo.321zou.com/source/_posts
