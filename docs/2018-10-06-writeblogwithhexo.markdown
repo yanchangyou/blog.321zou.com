@@ -96,4 +96,12 @@ valine:
   pageSize: 10 # pagination size
   visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
 ```
+进入控制台[valine评论后](https://leancloud.cn/dashboard/app.html)
+
 从上面可以看出，hexo做了很多博客相关的集成，用起来很方便，点赞.
+
+## 参考和资源
+- [hexo官网](https://hexo.io/zh-cn?_blank)
+- [iconfont](http://www.iconfont.cn?_blank)
+- [阿里云镜像](https://opsx.alibaba.com/mirror?_blank)
+- [淘宝node镜像](https://npm.taobao.org)
