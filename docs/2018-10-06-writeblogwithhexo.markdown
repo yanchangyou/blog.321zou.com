@@ -79,10 +79,21 @@ busuanzi_count:
   post_views_icon: eye
 ```
 ## 评论
-相同方法，搜索valine， 然后配置好appId和appKey，注意缩进
+相同方法，搜索leancloud_visitors，把enable和visitor设置为true，添加自己的appId和appKey，注意缩进
 ```
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
 valine:
-  appId: gs4XxRz1HG66wfK2k5su02D5-gzGzoHsz
-  appKey: SfmoXDMrxNUPUHWIJIoHlsY8
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid:  gs4XxRz1HG66wfK2k5su02D5-gzGzoHsz # your leancloud application appid
+  appkey:  SfmoXDMrxNUPUHWIJIoHlsY8 # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: Just go go # comment box placeholder
+  avatar: mm # gravatar style
+  guest_info: nick,mail,link # custom comment header
+  pageSize: 10 # pagination size
+  visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
 ```
 从上面可以看出，hexo做了很多博客相关的集成，用起来很方便，点赞.
