@@ -79,7 +79,7 @@ busuanzi_count:
   post_views_icon: eye
 ```
 ## 评论
-相同方法，搜索leancloud_visitors，把enable和visitor设置为true，添加自己的appId和appKey，注意缩进
+相同方法，搜索leancloud_visitors，把enable和visitor设置为true，添加自己的appId和appKey，注意缩进，以及#之前要空格，避免解析不正确
 ```
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
