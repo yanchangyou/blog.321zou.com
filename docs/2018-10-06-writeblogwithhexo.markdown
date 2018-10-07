@@ -4,6 +4,7 @@ title: "如何用hexo写博客"
 date: "2018-10-06 12:24:05 +0800"
 tags: blog
 author: "友"
+categories: blog
 ---
 
 ## 原理
@@ -105,4 +106,5 @@ valine:
 - [iconfont](http://www.iconfont.cn?_blank)
 - [阿里云镜像](https://opsx.alibaba.com/mirror?_blank)
 - [淘宝node镜像](https://npm.taobao.org)
-- [hexo-Next参数配置](https://www.jianshu.com/p/3a05351a37dc)
+- [hexo-Next配置1](https://www.jianshu.com/p/3a05351a37dc)
+- [hexo-Next配置2](https://www.jianshu.com/p/344cf061598d)

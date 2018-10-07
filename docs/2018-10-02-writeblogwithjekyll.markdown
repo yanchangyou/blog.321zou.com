@@ -3,6 +3,7 @@ layout: post
 title: "如何用jekyll写博客"
 date: "2018-10-02 15:34:03 +0800"
 author: "友"
+categories: blog
 ---
 
 ## 前言
