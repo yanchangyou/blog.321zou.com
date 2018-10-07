@@ -23,9 +23,6 @@ cd hexo.321zou.com
 git pull
 cd ..
 
-echo =============return back=============
-cd ..
-
 echo ========init docs _posts===========
 cp -r blog.321zou.com/docs/* jekyll.321zou.com/_posts
 cp -r blog.321zou.com/docs/* hexo.321zou.com/source/_posts
@@ -33,3 +30,6 @@ cp -r blog.321zou.com/docs/* hexo.321zou.com/source/_posts
 echo ========init site ===========
 cp -r blog.321zou.com/site/* jekyll.321zou.com/
 cp -r blog.321zou.com/site/* hexo.321zou.com/source/
+
+echo =============return back=============
+cd ..

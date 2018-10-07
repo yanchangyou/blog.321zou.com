@@ -3,6 +3,10 @@
 echo ========goto workspace==========
 cd blog.321zou.com
 
+echo =============init dir=============
+mkdir -p jekyll.321zou.com/_posts
+mkdir -p hexo.321zou.com/source/_posts
+
 echo ============run jekyll============
 cd jekyll.321zou.com
 bash run.sh
