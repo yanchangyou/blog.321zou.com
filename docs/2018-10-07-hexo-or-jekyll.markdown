@@ -22,8 +22,7 @@ hexo和jekyll多角度对比：
 |  安装 | yum等默认安装 | 源码安装 |   |
 |  文件名前缀 | 无要求 | 日期开头 |   |
 |  文件名后缀 | md 或者 markdown | markdown |   |
-|  主题 | 丰富，直接可用 | 较少，需要改造 |   |
-|  文件名后缀 | md 或者 markdown | markdown |   |
+|  主题 | 丰富，直接可用 | 较少，需要改造 |  |
 |  atom集成 | 简单 | 功能完善 | |
 |  图标 | 替换文件 | 添加文件| |
 |  统计 | 开关控制 | 添加代码 |   |
@@ -34,7 +33,7 @@ hexo和jekyll多角度对比：
 | 多语言 | 支持 | 不支持| |
 | 目录结构 | 划分清晰 | 不是很清晰|很容易切换主题等|
 
-以上除了atom插件集成上面jekyll优于hexo，其他方面都不占优势，相信有了自己的选择.
+以上除了atom插件集成上，jekyll优于hexo，其他方面都不占优势，相信有了自己的选择.
 
 ## 不足
 说完hexo的优点，再说说hexo的缺点（或许是建议）
@@ -44,18 +43,18 @@ hexo和jekyll多角度对比：
 
 ## 改进
 - 图片：使用http开通完整URL，不使用相对路径
-- 主题目录：使用linux的链接文件，这样可以自由切换，并且不同git不混杂在一起
+- 主题目录：使用linux的链接文件，这样可以自由切换，同时避免不同git混杂在一起
 
 ## 尝试
 怎么同时支持hexo和jekyll？
 
-下面是需要解决的问题，已经解决方法
+通过对比，hexo和jekyll还是有许多不同，要想把他们集成在一起，还是要花费一些功夫，下面是给出的解决方法
 - markdown文件命名：使用jekyll的规则，hexo使用原生文件名，但jekyll去掉了年月日的前缀，于是需要修改jekyll静态文件生成规则，添加上年月日，修改jekyll的_config.yml文件，内容如下
 ```
-permalink: /:categories/:year/:month/:day/:year-:month-:day-:title:output_ex
+permalink: /:categories/:year/:month/:day/:year-:month-:day-:title:output_ext
 ```
-- 文件同步： 添加启动shell脚本，在脚本中通过复制文件实现文件同步（尝试过链接文件，发现更新之后，不会自动生成静态文件，导致不刷新）
-- 自动化： hexo和jekyll的目录中分别启动命令，外面脚本调用
+- 文件同步： 添加启动shell脚本，在脚本中通过复制文件实现文件同步（尝试过链接文件，发现更新之后，不会自动生成静态文件，导致页面不刷新）
+- 自动化： hexo和jekyll的目录中分别添加启动命令，外面脚本调用
 - 个性化： 去掉框架中的个性化处理，如jekyll的嵌入脚本写法
 - 端口分配： hexo使用4100，jekyll使用3100，避免和原始冲突
 - 域名分配： 分别以hexo、jekyll作为域名开头部分
@@ -77,7 +76,7 @@ server {
 ```
 
 ## 集成
-最终集成了成文件结构如下：（github地址见：[blog.321zou.com](https://github.com/yanchangyou/blog.321zou.com)
+最终集成了成文件结构如下：（github地址见：[blog.321zou.com](https://github.com/yanchangyou/blog.321zou.com) ）
 ```
 └── blog.321zou.com
     ├── blog.321zou.com
@@ -95,8 +94,6 @@ server {
     │   ├── run.sh
 ```
 blog.321zou.com目录说明：
-- bin：集成初始化、启动、更新执行脚本
-hexo.321zou.com和jekyll.321zou.com中有分别的启动脚本，这样能统一控制
 - docs：里面是博客内容，这些博客在github也能查看
 - images：存储图片，方便博客里面引用，注意引用url是
 ```
@@ -106,6 +103,8 @@ https://raw.githubusercontent.com/yanchangyou/blog.321zou.com/master/images/2018
 #前面写法兼容性更好
 ```
 - site：存储了about，联系等站点相关内容
+- bin：集成初始化、启动、更新执行脚本
+hexo.321zou.com和jekyll.321zou.com中有分别的启动脚本，这样能统一控制
 
 ## 心得
 - 分离：内容和形式，markdown是内容，hexo和jekyll是形式，他们应该分离
