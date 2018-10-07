@@ -26,3 +26,6 @@ echo =============run hexo=============
 cd hexo.321zou.com
 bash run.sh
 cd ..
+
+echo =============return back=============
+cd ..

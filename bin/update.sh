@@ -26,3 +26,6 @@ echo =============run hexo=============
 cd hexo.321zou.com
 git pull
 cd ..
+
+echo =============return back=============
+cd ..
