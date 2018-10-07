@@ -11,8 +11,6 @@ author: "友"
 ### 效果
 ![整体效果](https://raw.githubusercontent.com/yanchangyou/blog.321zou.com/master/images/2018-10-02-jekyll-dev-env.jpg)
 
-<!-- more -->
-
 ### 原理
 jekyll将markdown文件转换为html文件(类似于java里面的freemarker）
 

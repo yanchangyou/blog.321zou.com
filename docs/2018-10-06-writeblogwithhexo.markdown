@@ -18,11 +18,7 @@ node -v
 # 安装极慢，切换镜像
 npm set registry https://registry.npm.taobao.org
 npm install hexo -g  
-``
-
-<!-- more -->`
-
-<!-- more -->
+```
 
 ### 加速
 使用国内的镜像安装更快，

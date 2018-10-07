@@ -11,8 +11,6 @@ author: "友"
 ## 图标
 图标是一个网站必须品，但对于开发人员来说，做一个图标还是有难度的，于是网上找一个现成的是一条捷径.
 
-<!-- more -->
-
 以前发现一个图标网站，推荐给大家：[iconfont](http://www.iconfont.cn?_blank) ，按照关键字搜索想要图标，然后找到中意的图标就直接拿来用了，下载格式选择png，如果要做网站的icon，还要进一步处理，直接搜索“在线转换icon”，找到一个网站[easyicon](https://www.easyicon.net/covert/?_blank)不错，把图标上传转换为icon之后，添加到根目录，改名为：favicon.ico，刷新页面，页签上面就图标了.
 
 ### https问题
