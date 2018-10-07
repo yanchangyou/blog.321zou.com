@@ -103,8 +103,7 @@ https://raw.githubusercontent.com/yanchangyou/blog.321zou.com/master/images/2018
 #前面写法兼容性更好
 ```
 - site：存储了about，联系等站点相关内容
-- bin：集成初始化、启动、更新执行脚本
-hexo.321zou.com和jekyll.321zou.com中有分别的启动脚本，这样能统一控制
+- bin：集成初始化、启动、更新、定时更新的shell脚本
 
 ## 心得
 - 分离：内容和形式，markdown是内容，hexo和jekyll是形式，他们应该分离
