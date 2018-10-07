@@ -10,7 +10,7 @@ categories: blog
 上一篇介绍了[如何用github写博客](/2018/10/01/2018-10-01-writeblogwithgithub.html)，github后台会生成静态文件内容，而这个生成静态文件的功能就是由jekyll完成，而且jekyll可以本地安装，下面就讲解如果搭建本地环境.
 
 ### 效果
-![整体效果](https://raw.githubusercontent.com/yanchangyou/blog.321zou.com/master/images/2018-10-02-jekyll-dev-env.jpg)
+![整体效果](https://github.com/yanchangyou/blog.321zou.com/blob/master/images/2018-10-02-jekyll-dev-env.jpg?raw=true)
 
 ### 原理
 jekyll将markdown文件转换为html文件(类似于java里面的freemarker）
