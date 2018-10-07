@@ -75,7 +75,7 @@ server {
 ```
 
 ## 集成
-最终集成了成文件结构如下：（github地址见：[blog.321zou.com](https://github.com/yanchangyou/blog.321zou.com) ）
+最终集成后，文件结构如下：（github地址见：[blog.321zou.com](https://github.com/yanchangyou/blog.321zou.com) ）
 ```
 └── blog.321zou.com
     ├── blog.321zou.com
@@ -92,6 +92,8 @@ server {
     │   ├── _config.yml
     │   ├── run.sh
 ```
+上面省略默认的文件.
+
 blog.321zou.com目录说明：
 - docs：里面是博客内容，这些博客在github也能查看
 - images：存储图片，方便博客里面引用，注意引用url是
@@ -99,13 +101,13 @@ blog.321zou.com目录说明：
 https://github.com/yanchangyou/blog.321zou.com/blob/master/images/2018-10-02-jekyll-dev-env.jpg?raw=true
 #而不是
 https://raw.githubusercontent.com/yanchangyou/blog.321zou.com/master/images/2018-10-02-jekyll-dev-env.jpg
-#前面写法兼容性更好
+#前面写法兼容性更好，raw.githubusercontent.com这个域名可能会换
 ```
-- site：存储了about，联系等站点相关内容
-- bin：集成初始化、启动、更新、定时更新的shell脚本
+- site：存储了about、联系等站点相关内容
+- bin：集成初始化、启动、更新、定时更新shell脚本
 
 ## 心得
-- 分离：内容和形式，markdown是内容，hexo和jekyll是形式，他们应该分离
+- 分离：内容和形式分离，markdown是内容，hexo和jekyll是形式，他们应该分离
 - 个性化：在兼容两种框架时，可以去掉个性化内容，达到最大程度通用
 - 扩展：当框架不支持时，可以通过其他途径，比如shell脚本解决
 - 完整：提供完整命令支持，实现：初始化、启动、更新、定时更新一条龙服务
