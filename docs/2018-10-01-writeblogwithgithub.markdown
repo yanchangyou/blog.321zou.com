@@ -4,6 +4,7 @@ title: "如何用github写博客"
 date: "2018-10-01 23:51:13 +0800"
 author: "友"
 categories: blog
+type: "tags"
 tags:
   - blog
   - github-page

@@ -4,6 +4,7 @@ title: "如何用hexo写博客"
 date: "2018-10-06 12:24:05 +0800"
 author: "友"
 categories: blog
+type: "tags"
 tags:
   - blog
   - hexo

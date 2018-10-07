@@ -4,6 +4,7 @@ title: "博客的图标、统计、评论"
 date: "2018-10-03 19:35:59 +0800"
 author: "友"
 categories: blog
+type: "tags"
 tags:
   - blog
 ---
