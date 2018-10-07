@@ -5,6 +5,9 @@ date: "2018-10-06 12:24:05 +0800"
 tags: blog
 author: "友"
 categories: blog
+tags:
+  - blog
+  - hexo
 ---
 
 ## 原理

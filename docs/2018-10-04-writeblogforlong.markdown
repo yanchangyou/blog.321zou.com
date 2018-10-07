@@ -4,6 +4,8 @@ title: "如何持续写作博客"
 date: "2018-10-04 10:49:35 +0800"
 author: "友"
 categories: blog
+tags:
+  - blog
 ---
 最近一直在想：如何持续写作博客？
 
