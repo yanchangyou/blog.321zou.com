@@ -20,6 +20,8 @@ npm set registry https://registry.npm.taobao.org
 npm install hexo -g  
 ```
 
+<!-- more -->
+
 ### 加速
 使用国内的镜像安装更快，
 - os安装包镜像 : https://opsx.alibaba.com/mirror 找到对应的os,点击后面的帮助连接，按照说明进行配置（阿里云服务器默认已经配置好）
