@@ -8,6 +8,8 @@ author: "友"
 ### 原理
 提交markdown文件到github后，github的后台程序将markdown文件转换为html静态页面，然后通过github.io对外提供服务，并且可以配置个性化域名
 
+<!-- more -->
+
 ### 操作
 整体步骤：新建项目->配置分支->配置风格->新建md文件->预览效果，详细步骤如下:
 1. 在github.com上面：[新建项目](https://github.com/new?_blank)，强烈建议勾选： Initialize this repository with a README
