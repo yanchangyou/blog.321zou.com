@@ -50,7 +50,7 @@ jekyll server
 
 ## jekyll特点
 - 文件命名规则
-  - 默认只能识别：yyyy-MM-dd-title.md这种格式
+  - 默认只能识别：yyyy-MM-dd-title.markdown这种格式
   - 识别后才会转换为静态html
   - 才会在首页展示
 - 目录规则
@@ -83,7 +83,7 @@ layout: post
 
 ### 要点
 一篇博客要想正确渲染出来，需要下面两个要点
-- 文件名： yyyy-MM-dd-title.md
+- 文件名： yyyy-MM-dd-title.markdown
 - header部分： 要添加layout设置
 
 ### 主题定制

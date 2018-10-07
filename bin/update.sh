@@ -1,6 +1,6 @@
 #/bin/bash
 
-echo goto workspace
+echo ========goto workspace==========
 cd blog.321zou.com
 
 echo ========update blog docs===========
