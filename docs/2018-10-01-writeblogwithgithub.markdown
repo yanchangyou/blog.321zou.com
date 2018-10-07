@@ -6,7 +6,7 @@ author: "友"
 ---
 
 ### 原理
-提交markdown文件到github后，github的后台程序将markdown文件转换为html静态页面，然后通过github.io对外提供服务，并且可以配置个性化域名
+提交markdown文件到github后，github的后台程序将markdown文件转换为html静态页面，然后通过github.io对外提供服务，并且可以配置个性化域名.
 
 <!-- more -->
 
