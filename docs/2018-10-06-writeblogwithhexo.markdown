@@ -105,3 +105,4 @@ valine:
 - [iconfont](http://www.iconfont.cn?_blank)
 - [阿里云镜像](https://opsx.alibaba.com/mirror?_blank)
 - [淘宝node镜像](https://npm.taobao.org)
+- [hexo-Next参数配置](https://www.jianshu.com/p/3a05351a37dc)
